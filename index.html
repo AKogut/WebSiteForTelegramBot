@@ -7,15 +7,24 @@
     
 </head>
 <body>
-    <img src="images/1.png" id="img1"/>
-    <h1 id="menu">Menu</h1>
-    <p id="textMenu">This is our menu</p>
+    <div id="main">
+        <img src="images/1.png" id="img1"/>
+        <h1 id="menu">Menu</h1>
+        <p id="textMenu">This is our menu</p>
 
-    <button id="order">Order</button>
-
+        <button id="buy">Buy</button>
+    </div>
+    <form id="form">
+        <h1>Order processing</h1>
+        <input type="text" placeholder="Full name" id="user_name">
+        <input type="text" placeholder="Email" id="user_email">
+        <input type="text" placeholder="Phone" id="user_phone">
+        <button id="order">Order</button>
+    </form>
 
 
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
