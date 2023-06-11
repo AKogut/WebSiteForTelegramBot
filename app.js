@@ -11,5 +11,29 @@ buy.addEventListener("click", () => {
 })
 
 order.addEventListener("click", () => {
+    document.getElementById("error").innerText = ""
+    let name =  document.getElementById('user_name').value;
+    let email =  document.getElementById('user_email').value;
+    let phone =  document.getElementById('user_phone').value;
+    if (name.length < 5){
+        document.getElementById("error").innerText = "please input correct name"
+        return;
+    }
+    if (email.length < 5){
+        document.getElementById("error").innerText = "please input correct email"
+        return;
+    }
+    if (phone.length < 5){
+        document.getElementById("error").innerText = "please input correct phone"
+        return;
+    }
+
+    let data = {
+        name: name,
+        email: email,
+        phone: phone
+    }
+
+    tg.sendData(JSON.stringify(data));
     tg.close();
-})
+});
