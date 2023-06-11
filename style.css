@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+#img1 {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+#menu {
+    text-align: center;
+}
+
+#textMenu {
+    text-align: center;
+}
+
 body {
     font-family: "Apple Braille", sans-serif;
     font-weight: 200;
@@ -48,19 +65,3 @@ button:hover{
     background: peachpuff;
 }
 
-#img1 {
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 100px;
-}
-
-#menu {
-    text-align: center;
-}
-
-#textMenu {
-    text-align: center;
-}
