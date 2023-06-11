@@ -21,6 +21,48 @@
     text-align: center;
 }
 
+#buy_1{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#buy_2{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#buy_3{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#buy_4{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#buy_5{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#buy_6{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 body {
     font-family: "Apple Braille", sans-serif;
     font-weight: 200;
@@ -52,6 +94,66 @@ input {
 input:focus {
     color: red;
 }
+
+.product-wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+    transition: width .2s;
+}
+
+.product {
+    display: block;
+    border: 1px solid #b5e9a7;
+    border-radius: 3px;
+    position: relative;
+    background: #fff;
+    margin: 0 20px 20px 0;
+    text-decoration: none;
+    color: #474747;
+    z-index: 0;
+    height: 300px;
+}
+.products {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.product-photo {
+    position: relative;
+    padding-bottom: 180px;
+    overflow: hidden;
+}
+.product-photo img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    transition: transform .4s ease-out;
+}
+.product p {
+    position: relative;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4em;
+    height: 5.6em;
+    overflow: hidden;
+}
+.product p:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 4.2em;
+    height: 1.6em;
+    background: linear-gradient(to left top, #fff, rgba(255, 255, 255, 0));
+}
+
 
 h1 {
     margin-top: 50px;

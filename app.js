@@ -35,5 +35,4 @@ order.addEventListener("click", () => {
     }
 
     tg.sendData(JSON.stringify(data));
-    tg.close();
 });
