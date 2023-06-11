@@ -11,5 +11,5 @@ buy.addEventListener("click", () => {
 })
 
 order.addEventListener("click", () => {
-    tg.close;
+    tg.close();
 })
